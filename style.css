@@ -1,0 +1,158 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color:black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body
+{
+    position:relative;
+    top: 69px;
+    margin-top:0px;
+}
+
+header
+{
+    display:inline-flex;
+    text-align: left;
+    position: fixed;
+    height: 69px;
+    Width:100%;
+    top: 0px;
+    left: 0;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    z-index: 5;
+}
+
+h2{
+    font-size:34px;
+}
+
+.Mission {
+    display: flex;
+    align-items: center;
+}
+.Background{
+    position: relative;
+    min-width: 1200px;
+    height: 700px;
+    z-index: 1;
+    margin-top:0px;
+    margin-left:20px;
+    margin: auto;
+    padding-top: 0px;
+    justify-content: center;
+}
+
+.MissionStatement{
+    position: absolute;
+    z-index: 2;
+    background-color: black;
+    width:100%;
+    text-align: center;
+}
+
+
+.Nav li{
+    list-style-type: none;
+    text-decoration: underline;
+    margin-right:20px;
+}
+
+.Nav{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+
+.Logo
+{
+    display:block;
+    height: 50px;
+    width: 157px;
+    margin: 10px;
+}
+
+.TOTM{
+    display:block;
+    margin: auto;
+    width:1000px;
+}
+
+.teas
+{
+    display:flex;
+    flex-wrap: wrap;
+    width:1000px;
+    margin:auto;
+    justify-content: center;
+}
+
+.teas h4{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.teas img{
+    margin:10px;
+    height:200px;
+    width:300px;
+}
+
+.locations{
+    width: 1200px;
+    height: 500px;
+    align-content: center;    
+    margin:auto;
+}
+
+.Backdrop{
+    display: relative;
+    width: 1200px;
+    height: 700px;
+    z-index: 1;
+}
+
+.LocContent{
+    display: absolute;
+    width: 1200px;
+    height: 700px;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    z-index: 2;
+    transform: translate(0, -90%);
+    background-color: transparent;
+}
+
+.squares{
+    display:inline-block;
+    width: 300px;
+    margin: auto 20px;
+    background-color: Black;
+    opacity:1;
+}
+
+.Contact{
+    display:absolute;
+    width:1200px;
+    opacity: 1;
+    height:200px;
+    z-index:2;
+    transform: translate(0, -470%);
+}
+
+.copyright{
+    position:relative;
+    top: 150px;
+    text-align:left;
+    margin-left:20px;
+
+}
