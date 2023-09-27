@@ -79,9 +79,12 @@ h2{
 }
 
 .TOTM{
-    display:block;
-    margin: auto;
+    display:flex;
     width:1000px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 .teas
@@ -96,6 +99,10 @@ h2{
 .teas h4{
     margin: 0px;
     margin-bottom: 10px;
+}
+#Teas{
+    width: 100%;
+    
 }
 
 .teas img{
