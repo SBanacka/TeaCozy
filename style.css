@@ -36,17 +36,14 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 700px;
+    width: 1200px ;
+    margin:auto;
 }
 .Background{
-    position: relative;
-    min-width: 1200px;
+    width: 1200px;
     height: 700px;
     z-index: 1;
-    margin-top:0px;
-    margin-left:20px;
-    margin: auto;
-    padding-top: 0px;
-    justify-content: center;
 }
 
 .MissionStatement{
@@ -93,8 +90,6 @@ h2{
     flex-wrap: wrap;
     width:1000px;
     margin:auto;
-    display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -117,7 +112,7 @@ h2{
 }
 
 .Backdrop{
-    display: relative;
+
     width: 1200px;
     height: 700px;
     z-index: 1;
